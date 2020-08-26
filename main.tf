@@ -12,7 +12,7 @@ terraform {
 provider "tfe" {}
 
 resource "tfe_organization" "test" {
-  name  = "not-my-org-name-but-someone-elses"
+  name  = "not-my-org-name-but-someone-elsessssss"
   email = "admin@company.com"
 }
 
