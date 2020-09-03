@@ -9,12 +9,12 @@ terraform {
 
 provider "tfe" {}
 
-resource "tfe_organization" "test" {
+resource "tfe_workspace" "test" {
   name  = "a-not-so-random-org-name"
-  email = "admin@company.com"
+  organizaiton = "test-tfe"
 }
 
-resource "tfe_organization" "test132" {
+resource "tfe_workspace" "test132" {
   name  = "another-not-so-random-org-name"
-  email = "admin@company.com"
+  organizaiton = "test-tfe"
 }
