@@ -14,7 +14,7 @@ resource "tfe_organization" "test" {
   email = "admin@company.com"
 }
 
-resource "tfe_organization" "test" {
+resource "tfe_organization" "test132" {
   name  = "another-not-so-random-org-name"
   email = "admin@company.com"
 }
