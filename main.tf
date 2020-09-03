@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-provider "tfe" {}
+#provider "tfe" {}
 
 resource "tfe_workspace" "test" {
   name  = "a-not-so-random-org-name"
