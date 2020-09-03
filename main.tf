@@ -10,7 +10,7 @@ terraform {
 provider "tfe" {}
 
 resource "tfe_workspace" "test" {
-  name  = "aaaa-random-org-name"
+  name  = "aa1a-random-org-name"
   organization = "kyriakos-test"
 }
 
@@ -19,7 +19,3 @@ resource "tfe_workspace" "test132" {
   organization = "kyriakos-test"
 }
 
-resource "tfe_workspace" "test1323" {
-  name  = "aaaa-not-so-random-org-name"
-  organization = "kyriakos-test"
-}
