@@ -8,9 +8,10 @@ terraform {
 }
 
 provider "tfe" {}
+provider "terraform" {} 
 
 resource "tfe_workspace" "test" {
-  name  = "aa1a-random-org-name"
+  name  = "aa2a-random-org-name"
   organization = "kyriakos-test"
 }
 
