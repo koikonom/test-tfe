@@ -10,7 +10,7 @@ terraform {
 #provider "tfe" {}
 
 resource "tfe_workspace" "test" {
-  name  = "a-not-so-random-org-name"
+  name  = "a-random-org-name"
   organization = "kyriakos-test"
 }
 
