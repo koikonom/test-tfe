@@ -7,11 +7,10 @@ terraform {
   }
 }
 
-provider "tfe" {}
-provider "terraform" {} 
+provider "terraform" {}
 
 resource "tfe_workspace" "test" {
-  name  = "aa2a-random-org-name"
+  name  = "aa3a-random-org-name"
   organization = "kyriakos-test"
 }
 
