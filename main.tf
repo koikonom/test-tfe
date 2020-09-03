@@ -11,10 +11,10 @@ provider "tfe" {}
 
 resource "tfe_workspace" "test" {
   name  = "a-not-so-random-org-name"
-  organizaiton = "test-tfe"
+  organization = "test-tfe"
 }
 
 resource "tfe_workspace" "test132" {
   name  = "another-not-so-random-org-name"
-  organizaiton = "test-tfe"
+  organization = "test-tfe"
 }
